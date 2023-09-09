@@ -142,6 +142,9 @@ section {
     width: 400px;
     margin: auto 0;
 }
+.my-pix {
+    border-radius: 50%;
+}
 .section__text {
     align-self: center;
     text-align: center;
