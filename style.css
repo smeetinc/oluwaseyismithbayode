@@ -218,6 +218,9 @@ section {
 
  #about {
     position: relative;
+    height: fit-content;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
  }
  .about-containers {
     gap: 2rem;
@@ -233,6 +236,9 @@ section {
  }
  .about-pic {
     border-radius: 2rem;
+ }
+ .text-container {
+    text-align: justify;
  }
  .arrow {
     position: absolute;

@@ -1,479 +1,419 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Oluwaseyi Bayode | Portfolio</title>
-    <link rel="apple-touch-icon" sizes="152x152" href="./assets/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
-    <link rel="manifest" href="./assets/site.webmanifest">
-    <link rel="mask-icon" href="./assets/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="mediaqueries.css" />
-  </head>
-  <body>
-    <!--Start of Header -->
-    <header>
-      <!--Start of Navigation Bar -->
-      <nav id="desktop-nav">
-        <!--Start of Logo-->
-        <h1 class="logo">Oluwaseyi Bayode</h1>
-        <!--End of logo-->
-        <div>
-          <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-      <!--End of Navigation Bar-->
-      <!--Mobile Nav Starts-->
-      <nav id="hamburger-nav">
-        <div class="logo">OSB</div>
-        <div class="hamburger-menu">
-          <div class="hamburger-icon" onclick="toggleMenu()">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-          <div class="menu-links">
-            <li><a href="#" onclick="toggleMenu()">Home</a></li>
-            <li><a href="#about" onclick="toggleMenu()">About</a></li>
-            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-          </div>
-        </div>
-      </nav>
-      <!--End of Mobile Nav-->
-    </header>
 
-    <!--End of Header-->
-    <!-- Main Body starts-->
-    <section id="profile">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oluwaseyi Bayode | Portfolio</title>
+  <link rel="apple-touch-icon" sizes="152x152" href="./assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
+  <link rel="manifest" href="./assets/site.webmanifest">
+  <link rel="mask-icon" href="./assets/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+  <!--Start of Header -->
+  <header>
+    <!--Start of Navigation Bar -->
+    <nav id="desktop-nav">
+      <!--Start of Logo-->
+      <h1 class="logo">Oluwaseyi Bayode</h1>
+      <!--End of logo-->
+      <div>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!--End of Navigation Bar-->
+    <!--Mobile Nav Starts-->
+    <nav id="hamburger-nav">
+      <div class="logo">OSB</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#" onclick="toggleMenu()">Home</a></li>
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <!--End of Mobile Nav-->
+  </header>
+
+  <!--End of Header-->
+  <!-- Main Body starts-->
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./assets/profile-me.jpg" alt="My profile picture" class="my-pix" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">hello, I'm</p>
+      <h1 class="title">Oluwaseyi Smith Bayode</h1>
+      <p class="section__text__p2">Fullstack Developer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/OluwaseyiBayodeResume.pdf')">
+          Download CV
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <a href="https://www.linkedin.com/in/oluwaseyi-smith-bayode/" rel="noreferrer noopener" target="_blank"><img
+            src="./assets/linkedin.png" alt="My linkedin profile" class="icon" /></a>
+        <a href="https://twitter.com/smeetwebdev" rel="noreferrer noopener" target="_blank"><img
+            src="./assets/twitter.png" alt="My Twitter profile" class="icon" /></a>
+        <a href="https://github.com/smeetinc" rel="noreferrer noopener" target="_blank"><img src="./assets/github.png"
+            alt="My Github profile" class="icon" /></a>
+      </div>
+    </div>
+  </section>
+  <!---Main Body ends-->
+  <!--About section starts-->
+  <section id="about">
+    <p class="section__text__p1">Get to know more</p>
+    <h1 class="title">About me</h1>
+    <div class="section-container">
       <div class="section__pic-container">
-        <img
-          src="./assets/profile-me.jpg"
-          alt="My profile picture"
-          class="my-pix"
-        />
+        <img src="./assets/about-me.jpg" alt="about pic" class="about-pic" />
       </div>
-      <div class="section__text">
-        <p class="section__text__p1">hello, I'm</p>
-        <h1 class="title">Oluwaseyi Smith Bayode</h1>
-        <p class="section__text__p2">Fullstack Developer</p>
-        <div class="btn-container">
-          <button
-            class="btn btn-color-2"
-            onclick="window.open('./assets/OluwaseyiBayodeResume.pdf')"
-          >
-            Download CV
-          </button>
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
-            Contact Info
-          </button>
-        </div>
-        <div id="socials-container">
-          <a
-            href="https://www.linkedin.com/in/oluwaseyi-smith-bayode/"
-            rel="noreferrer noopener"
-            target="_blank"
-            ><img
-              src="./assets/linkedin.png"
-              alt="My linkedin profile"
-              class="icon"
-          /></a>
-          <a
-            href="https://twitter.com/smeetwebdev"
-            rel="noreferrer noopener"
-            target="_blank"
-            ><img
-              src="./assets/twitter.png"
-              alt="My Twitter profile"
-              class="icon"
-          /></a>
-          <a
-            href="https://github.com/smeetinc"
-            rel="noreferrer noopener"
-            target="_blank"
-            ><img
-              src="./assets/github.png"
-              alt="My Github profile"
-              class="icon"
-          /></a>
-        </div>
-      </div>
-    </section>
-    <!---Main Body ends-->
-    <!--About section starts-->
-    <section id="about">
-      <p class="section__text__p1">Get to know more</p>
-      <h1 class="title">About me</h1>
-      <div class="section-container">
-        <div class="section__pic-container">
-          <img src="./assets/about-me.jpg" alt="about pic" class="about-pic" />
-        </div>
-        <div class="about-details-container">
-          <div class="about-containers">
-            <div class="details-container">
-              <img
-                src="./assets/experience.png"
-                alt="experience icon"
-                class="icon"
-              />
-              <h3>Experience</h3>
-              <p>4+ years <br />Frontend Development</p>
-              <p>6+ years <br />Backend Development</p>
-            </div>
-            <div class="details-container">
-              <img
-                src="./assets/education.png"
-                alt="education icon"
-                class="icon"
-              />
-              <h3>Education</h3>
-              <p>B.Sc. Microbiology</p>
-              <p>Post Graduate Diploma in Education (P.G.D.E) | N.T.I</p>
-              <p>Self Taught Software Engineer</p>
-            </div>
-          </div>
-          <div class="text-container">
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-              porro illo sequi possimus praesentium soluta omnis aperiam tempora
-              laboriosam, aspernatur nam? Ab ea, suscipit corporis quae
-              recusandae, vel consectetur sint esse, ratione voluptas expedita
-              consequatur iure dignissimos? Rerum saepe velit cupiditate
-              laboriosam? Ut minima facere officiis accusantium tempore, debitis
-              inventore.
-            </p>
-          </div>
-        </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#experience'"
-      />
-    </section>
-    <!--About section ends-->
-    <!--Experience section starts-->
-    <section id="experience">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
-      <div class="experience-details-container">
+      <div class="about-details-container">
         <div class="about-containers">
           <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>HTML</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>CSS</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>JavaScript</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>HTML</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Bootstrap 5</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Typescript</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Material UI</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-            </div>
+            <img src="./assets/experience.png" alt="experience icon" class="icon" />
+            <h3>Experience</h3>
+            <p>4+ years <br />Frontend Development</p>
+            <p>6+ years <br />Backend Development</p>
           </div>
           <div class="details-container">
-            <h2 class="experience-sub-title">Backend Development</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>MySQL</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Node Js</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>MongoDB</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>PHP</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Laravel</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Typescript</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Material UI</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-            </div>
+            <img src="./assets/education.png" alt="education icon" class="icon" />
+            <h3>Education</h3>
+            <p>B.Sc. Microbiology</p>
+            <p>Post Graduate Diploma in Education (P.G.D.E) | N.T.I</p>
+            <p>Self Taught Software Engineer</p>
           </div>
         </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#projects'"
-      />
-    </section>
-    <!--Experience section ends-->
-    <!--projects section starts-->
-    <section id="projects">
-      <p class="section__text__p1">Browse My Recent</p>
-      <h1 class="title">Projects</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-1.png"
-                alt="Project 1"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Project One</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://ratedpleasure.com'"
-              >
-                RatedPleasure Online Store
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://ratedpleasure.com'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-2.png"
-                alt="Project 1"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Project Two</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://ratedpleasure.com'"
-              >
-                RatedPleasure Online Store
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://ratedpleasure.com'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-3.png"
-                alt="Project 1"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Project Three</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://ratedpleasure.com'"
-              >
-                RatedPleasure Online Store
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://ratedpleasure.com'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#contact'"
-      />
-    </section>
-    <!--projects section ends-->
-    <!--Contact section starts-->
-    <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
-      <h1 class="title">Contact Me</h1>
-      <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-          <img
-            src="./assets/email.png"
-            alt="Email icon"
-            class="icon contact-icon email-icon"
-          />
+        <div class="text-container">
           <p>
-            <a href="mailto:bayodeoluseyi@gmail.com">bayodeoluseyi@gmail.com</a>
+            Hello, I'm Oluwaseyi Smith Bayode, a passionate fullstack developer with over 6 years of experience in PHP
+            and more than 4 years of
+            expertise in HTML, CSS, and JavaScript. My journey into the world of web development began with a degree in
+            microbiology from
+            Obafemi Awolowo University in 2017. However, my insatiable curiosity and dedication led me to transition
+            into the dynamic field
+            of web development.
+          </p>
+          <p>
+            Through self-directed learning and leveraging online resources, I honed my skills and embarked on a journey
+            of continuous growth.
+            Today, I proudly stand as a versatile fullstack developer, combining my scientific background with my
+            technical prowess to
+            create innovative and efficient web solutions.
+          </p>
+          <p>What I Bring to the Table:<br>
+            <strong>Proficiency in PHP:</strong> With over half a decade of experience in PHP, I excel in crafting
+            robust and scalable
+            back-end solutions. My coding skills ensure that websites and applications not only look great but also
+            function flawlessly.
+
+
+
+          </p>
+          <p>
+            <strong>Front-end Expertise:</strong>I have spent over 4 years perfecting my skills in HTML, CSS, and
+            JavaScript. This allows
+            me to create captivating and responsive user interfaces that engage and delight users.
+
+          </p>
+          <p>
+            <strong>Exploration of Diverse Technologies:</strong>While PHP is my foundation, I'm not limited to a single
+            technology stack.
+            I'm a serial learner who enjoys getting my hands dirty with various technologies, including Node.js, and
+            more.
+            I thrive on the challenge of mastering new tools and languages, and I can quickly adapt to meet project
+            demands.
+
+          </p>
+          <p>
+            <strong>Problem-Solving Mindset:</strong>My scientific background has instilled in me a rigorous approach to
+            problem-solving.
+            I approach every project with a systematic and analytical mindset, ensuring that I find the most efficient
+            solutions.
+
+          </p>
+          <p>
+            <strong>Passion for Learning:</strong>The ever-evolving nature of web development excites me. I'm committed
+            to staying
+            up-to-date with the latest trends and technologies, ensuring that my work remains cutting-edge.
+
+          </p>
+          <p>
+            My portfolio showcases a collection of projects that reflect my dedication to creating exceptional web
+            experiences.
+            I believe in the power of technology to transform ideas into reality, and I'm eager to collaborate with you
+            to bring your
+            vision to life.
+
+          </p>
+          <p>
+            Thank you for visiting my portfolio, and I look forward to the opportunity of working together on exciting
+            projects.
+            If you'd like to discuss a potential collaboration or have any questions, please don't hesitate to <a
+              href="#contact">get in touch.</a>
+
+
+          </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           </p>
         </div>
-        <div class="contact-info-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="Linked icon"
-            class="icon contact-icon"
-          />
-          <p><a href="https://">Linkedin</a></p>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+  </section>
+  <!--About section ends-->
+  <!--Experience section starts-->
+  <section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Frontend Development</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>HTML</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>CSS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>JavaScript</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>React</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Bootstrap 5</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Typescript</h3>
+                <p>Beginner</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Material UI</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Tailwind CSS</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Backend Development</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>MySQL</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Node Js</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>MongoDB</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>PHP</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Laravel</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>NextJs</h3>
+                <p>Beginner</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Python</h3>
+                <p>Beginner</p>
+              </div>
+            </article>
+          </div>
         </div>
       </div>
-    </section>
-    <!--Contact section ends-->
-    <!--- Footer starts-->
-    <footer>
-      <nav>
-        <div class="nav-links-container">
-          <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
+    </div>
+    <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+  </section>
+  <!--Experience section ends-->
+  <!--projects section starts-->
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-1.png" alt="Project 1" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Project One</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/smeetinc/ratedpleasure.git'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://ratedpleasure.com'">
+              Live Demo
+            </button>
+          </div>
         </div>
-      </nav>
-      <p>Copyright &#169; 2023 Oluwaseyi Smith Bayode. All Rights Reserved.</p>
-    </footer>
-    <!--- Footer ends--->
-    <script src="script.js"></script>
-  </body>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-2.png" alt="Project 1" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Project Two</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/smeetinc/slnconline.git'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://slnconline.com.ng'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-3.png" alt="Project 1" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Project Three</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/smeetinc/drp.git'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://drp.org.ng'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+  </section>
+  <!--projects section ends-->
+  <!--Contact section starts-->
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p>
+          <a href="mailto:bayodeoluseyi@gmail.com">bayodeoluseyi@gmail.com</a>
+        </p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/linkedin.png" alt="Linked icon" class="icon contact-icon" />
+        <p><a href="https://">Linkedin</a></p>
+      </div>
+    </div>
+  </section>
+  <!--Contact section ends-->
+  <!--- Footer starts-->
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2023 Oluwaseyi Smith Bayode. All Rights Reserved.</p>
+  </footer>
+  <!--- Footer ends--->
+  <script src="script.js"></script>
+</body>
+
 </html>
