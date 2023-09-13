@@ -1,10 +1,16 @@
 @media screen and (max-width: 1400px) {
     #profile {
-        height: 83vh;
+        height: fit-content;
+        padding-top: 10rem;
         margin-bottom: 6rem;
+        margin-top: 0rem;
     }
     .about-containers {
         flex-wrap: wrap;
+    }
+    #about, #experience, #projects, #contact {
+        margin-top: 3rem;
+        padding-top: 8rem;
     }
     
 }
@@ -15,7 +21,7 @@
     #hamburger-nav {
         display: flex;
     }
-    #experience, .expereince-details-container {
+    #experience, .experience-details-container {
         margin-top: 2rem;
     }
     #profile, .section-container {
@@ -29,6 +35,7 @@
     }
     section {
         margin: 0 5%;
+        
     }
     .section__pic-container {
         width: 275px;

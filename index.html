@@ -14,6 +14,11 @@
   <meta name="theme-color" content="#ffffff">
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="mediaqueries.css" />
+   <!--jquery-->
+    <script src="./jquery-3.4.0.js"></script>
+  <!---End of jquery-->
+  <script src="./extra.js"></script>
+
 </head>
 
 <body>
@@ -68,7 +73,7 @@
       <p class="section__text__p2">Fullstack Developer</p>
       <div class="btn-container">
         <button class="btn btn-color-2" onclick="window.open('./assets/OluwaseyiBayodeResume.pdf')">
-          Download CV
+          View CV
         </button>
         <button class="btn btn-color-1" onclick="location.href='./#contact'">
           Contact Info
@@ -126,6 +131,8 @@
             technical prowess to
             create innovative and efficient web solutions.
           </p>
+          <button type="button" id="load-more-content" href="#top">View More</button>
+          <div id="more-content">
           <p>What I Bring to the Table:<br>
             <strong>Proficiency in PHP:</strong> With over half a decade of experience in PHP, I excel in crafting
             robust and scalable
@@ -179,6 +186,7 @@
 
 
           </p>
+          </div>
 
 
 
@@ -193,7 +201,7 @@
 
 
 
-          </p>
+        
         </div>
       </div>
     </div>
